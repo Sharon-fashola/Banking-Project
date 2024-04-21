@@ -1,0 +1,77 @@
+<!-- Mini library -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Banking Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+  <div class= "nav">
+    <input class="searchbox"/> 
+    <button class="search-btn">search</button>
+  </div>
+
+  <div class= "hero"> 
+    <h1>Welcome to Simple Banking </h1>
+    <img src="https://www.google.com/imgres?q=bank%20logo%20examples&imgurl=https%3A%2F%2Fwww.logodesign.net%2Flogo%2Falt-5606ld.png%3Fnwm%3D1%26nws%3D1%26industry%3Dbank%26sf%3D%26txt_keyword%3DAll&imgrefurl=https%3A%2F%2Fwww.logodesign.net%2Flogos%2Fbank&docid=PlLzdekwis6v2M&tbnid=QcF2y7m5GTOWgM&vet=12ahUKEwiVve-nyNOFAxV-JUQIHVmBCWcQM3oECG8QAA..i&w=270&h=299&hcb=2&ved=2ahUKEwiVve-nyNOFAxV-JUQIHVmBCWcQM3oECG8QAA"> 
+
+  </div>
+
+  <div class="card">
+    <button>left</button>
+    <img src="https://www.logodesign.net/studio-design/0/NTEwNA%253D%253D/Q09NUEFOWSBOQU1F/0?sf=">
+
+    
+      <h2>Create Account</h2>
+    <img src="https://as2.ftcdn.net/v2/jpg/00/32/86/03/1000_F_32860381_peOPuBzShbL4s2aBxuOx5TideLhKDpus.jpg">
+        <form action= "/create_account" method= "post">
+    Account Number: <input type= "text" name= "account_number" required><br>
+    Initial Balance: <input type= "text" name="inittial_balance" required><br>
+    <input type= "submit" value= "Create Account">
+    </from>
+    
+      <h2>Account Balance</h2>
+    <img src="https://cdn.vectorstock.com/i/1000x1000/66/34/account-balance-icon-simple-element-vector-27306634.webp">
+    <form action= "/account_balance" method= "post">
+    Account Number: <input type= "text" name= "account_number" required><br>
+    <input type= "submit" value= "account_balance">
+    </form>
+    
+      <h2>Withdraw</h2>
+    <img src="https://static.vecteezy.com/system/resources/previews/014/530/445/non_2x/withdraw-icon-with-outline-style-vector.jpg">
+    <form action= "/withdraw" method= "post">
+    Account Number: <input type= "text" name= "account_number" required><br>
+    Amount: <input type= "number" name= "amount"><br>
+    <input type= "submit" value= "Withdraw">
+    </form>
+    
+    <h2>deposit</h2>
+     <img src="https://uxwing.com/wp-content/themes/uxwing/download/banking-finance/deposit-icon.png">
+     <form action= "/deposit" method= "post">
+     Account Number: input type= "text" name= "account_number" required><br>
+     Amount: <input type= "number" name= "amount"><br>
+     <input type= "submit" value= "Deposit">
+     </form>
+
+     <h2>Deposit</h2>
+     <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*4NoXEFkvxuMn3fPKWYW8Vg.png">
+     <form action= "/deposit" method= "post">
+     Account Number: input type= "text" name= "account_number" required><br>
+     Amount: <input type= "number" name= "amount"><br>
+     <input type= "submit" value= "Deposit">
+     </form>
+    <button>right</button>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
